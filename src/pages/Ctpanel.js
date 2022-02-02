@@ -1,4 +1,6 @@
+//Doubles as a component wrapper
 
+import TopcommonComp from "../components/TopcommonComp";
 
 
 
@@ -7,7 +9,11 @@
 const Ctpanel = () => {
     return (
 
-        <>buh</>
+        <div className="w-screen h-screen bg-blue-800">
+
+            <TopcommonComp />
+
+        </div>
 
     );
 }
