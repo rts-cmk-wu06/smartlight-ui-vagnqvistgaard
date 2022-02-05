@@ -2,7 +2,7 @@ import CirclescommonGraphic from "./../graphics/CirclescommonGraphic.svg"
 
 
 
-const CirclescommonComp = () => {
+const CirclesComp = () => {
     return (
         <div className="overflow-hidden -inset-y-24 -inset-x-14 rotate-0">
             <img src={CirclescommonGraphic} width='518' height='430' alt='' />
@@ -10,4 +10,4 @@ const CirclescommonComp = () => {
     );
 }
 
-export default CirclescommonComp;
+export default CirclesComp;

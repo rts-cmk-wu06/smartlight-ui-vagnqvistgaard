@@ -1,7 +1,7 @@
 import TopcommonGraphic from "./../graphics/TopcommonGraphic.svg"
 
 
-const TopcommonComp = () => {
+const TopComp = () => {
     return (
 
         <div className="">
@@ -11,4 +11,4 @@ const TopcommonComp = () => {
     );
 }
 
-export default TopcommonComp;
+export default TopComp;

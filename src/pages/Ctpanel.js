@@ -2,9 +2,10 @@
 
 
 //import CirclescommonGraphic from "../graphics/CirclescommonGraphic.svg";
-import TopcommonComp from "../components/TopcommonComp";
-import HeadingComp from "../components/HeadingComp";
-import BottomcommonComp from "../components/BottomcommonComp";
+import TopComp from "../components/TopComp";
+import HeadingTemp from "../templates/HeadingTemp";
+import BottomComp from "../components/BottomComp";
+import WhiteboxTemp from "../templates/WhiteboxTemp";
 
 
 //customized color 
@@ -13,9 +14,11 @@ const Ctpanel = () => {
 
         <div className="w-screen h-screen bg-blue-950">
 
-            <TopcommonComp />
-            <HeadingComp />
-            <BottomcommonComp />
+            <TopComp />
+            <HeadingTemp />
+            <WhiteboxTemp />
+            <BottomComp />
+
 
         </div>
 
