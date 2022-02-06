@@ -1,7 +1,7 @@
-import TopTemp from "../components/TopComp";
-//import HeadingComp from "../components/HeadingComp";
+import TopComp from "../components/TopComp";
+import HeadingroomsTemp from "../templates/HeadingroomsTemp";
 import BottomComp from "../components/BottomComp";
-import WhiteboxTemp from "../templates/WhiteboxTemp";
+import WhiteboxComp from "../components/WhiteboxComp";
 
 
 
@@ -11,8 +11,9 @@ const Broompanel = () => {
 
         <div className="w-screen h-screen bg-blue-950">
 
-            <TopTemp />
-            <WhiteboxTemp />
+            <TopComp />
+            <HeadingroomsTemp />
+            <WhiteboxComp />
             <BottomComp />
 
         </div>

@@ -15,6 +15,8 @@ module.exports = {
         '37': '37rem',
         '38': '150px',
         '39': '38rem',
+        'wbc': '472px',
+        'hrt': '239px',
       },
       width: {
         '38': '150px',
