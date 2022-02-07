@@ -2,13 +2,19 @@
 //import LightShadeGraphic from "../graphics/LightShadeGraphic.svg"
 import Lampgraphic from "../graphics/Lampgraphic.svg"
 
+import { motion } from "framer-motion";
+
 
 const LampTemp = () => {
     return (
         <>
-            <div className="col-start-3 col-end-5">
+            <motion.div
+                className="col-start-3 col-end-5"
+                animate={{ y: [-33, -4] }}
+                transition={{ delay: 1.5 }}
+            >
                 <img className="transform -translate-y-10" src={Lampgraphic} width="139" height="157" alt="" />
-            </div>
+            </motion.div>
 
         </>
     );

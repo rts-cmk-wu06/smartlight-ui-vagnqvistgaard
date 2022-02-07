@@ -10,17 +10,23 @@ module.exports = {
         slate: {
           75: '#F6F8FB',
         },
+        yellow: {
+          310: '#FFA939',
+          320: '#FFD239',
+        }
       },
       height: {
         '37': '37rem',
         '38': '150px',
         '39': '38rem',
+        'wbt': '592px',
         'wbc': '472px',
         'hrt': '239px',
       },
       width: {
         '38': '150px',
         'gr-bx': '324px',
+        '98': '402px',
       }
     },
   },
