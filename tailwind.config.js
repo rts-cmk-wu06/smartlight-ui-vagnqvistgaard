@@ -27,6 +27,7 @@ module.exports = {
         '38': '150px',
         'gr-bx': '324px',
         '98': '402px',
+        'close': '325px',
       }
     },
   },

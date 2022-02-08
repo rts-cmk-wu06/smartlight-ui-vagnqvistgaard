@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom";
+
 import Bedroombutton from "./../graphics/Bedroombutton.svg"
+
 
 
 
@@ -12,11 +15,13 @@ const RoomcardComp = (props) => {
     //............................
 
     return (
-        <div className="w-38 h-38 bg-white rounded-2xl drop-shadow-lg px-6 py-6">
-            <img src={br} width={w} height={h} alt="" />
-            <div className="font-bold pt-3">{btxt}</div>
-            <div className="text-yellow-310 font-bold">{otxt}</div>
-        </div>
+        <Link to={'broompanel'}>
+            <div className="w-38 h-38 bg-white rounded-2xl drop-shadow-lg px-6 py-6">
+                <img src={br} width={w} height={h} alt="" />
+                <div className="font-bold pt-3">{btxt}</div>
+                <div className="text-yellow-310 font-bold">{otxt}</div>
+            </div>
+        </Link>
     );
 }
 
