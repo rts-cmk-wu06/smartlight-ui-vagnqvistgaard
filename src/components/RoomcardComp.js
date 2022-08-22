@@ -11,7 +11,7 @@ const RoomcardComp = (props) => {
     let h = 42.5;
     let br = Bedroombutton;
     let btxt = 'Bedroom';
-    let otxt = '4 lights';
+    let otxt = '1 light';   //fattig familie, der oveni lider af klima-skam....
     //............................
 
     return (

@@ -9,7 +9,7 @@ const TxtheadinglightsComp = () => {
             transition={{ delay: 1.5 }}
         >
 
-            4 lights
+            1 light
         </motion.div>
     );
 }
